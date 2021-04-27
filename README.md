@@ -15,8 +15,17 @@ Solidity v0.8.3
 $ yarn
 ```
 
+### Compile
+
+```console
+$ yarn compile
+```
+
 ### Testing
 
 ```console
-$ yarn test
+$ yarn test          # without ganache
+$ yarn test:ganache  # with ganache
 ```
+
+![testing](testing.png)

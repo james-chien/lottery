@@ -14,6 +14,7 @@
 
 require("@nomiclabs/hardhat-ethers");
 require("@nomiclabs/hardhat-etherscan");
+require("@nomiclabs/hardhat-ganache");
 require("@nomiclabs/hardhat-solhint");
 require("@nomiclabs/hardhat-waffle");
 require("@nomiclabs/hardhat-web3");

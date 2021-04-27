@@ -13,6 +13,7 @@
     "coverage": "hardhat coverage",
     "lint": "solhint --max-warnings 0 \"contracts/**/*.sol\"",
     "test": "hardhat test",
+    "test:ganache": "hardhat --network ganache test",
     "localnode": "hardhat node",
     "gas-report": "env ENABLE_GAS_REPORT=true npm run test",
     "etherscan": "hardhat verify --network ropsten --constructor-args arguments.js"
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@nomiclabs/hardhat-ethers": "^2.0.2",
     "@nomiclabs/hardhat-etherscan": "^2.1.1",
+    "@nomiclabs/hardhat-ganache": "^2.0.0",
     "@nomiclabs/hardhat-solhint": "^2.0.0",
     "@nomiclabs/hardhat-truffle5": "^2.0.0",
     "@nomiclabs/hardhat-waffle": "^2.0.1",
